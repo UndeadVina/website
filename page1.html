@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редакторы с подсведкой кода. Плагины для Web-разработки</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="icon" href="img/logo.png" type="image/png">
+</head>
+<body>
+
+<!-- Верхняя навигация -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand" href="index.html"><img src="img/logo.png" width="34" alt="Logo"></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Главная</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">О нас</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Контакты</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Боковое меню -->
+<div class="sidebar" id="sidebar">
+    <div class="container">
+        <h4>Меню</h4>
+        <ul class="nav flex-column">
+            <li class="nav-item">
+                <a class="nav-link" href="page1.html">Visual Studio Code</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="page2.html">Sublime Text</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="page3.html">Atom</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="page4.html">Notepad++</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="page5.html">WebStorm</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="page6.html">Brackets</a>
+            </li>
+        </ul>
+    </div>
+</div>
+
+<!-- Кнопка бокового меню -->
+<button class="sidebar-toggle-btn" id="toggleSidebar">
+    &#9664;
+</button>
+
+<!-- Основной контент -->
+<div class="main-content">
+    <div class="container">
+        <h2>Visual Studio Code (VS Code)</h2>
+
+        <p>Visual Studio Code, или VS Code, является одним из самых популярных редакторов кода на сегодняшний день. Он разработан компанией Microsoft и стал любимцем разработчиков благодаря своей легкости, функциональности и широким возможностям настройки. VS Code поддерживает множество языков программирования и предоставляет мощные инструменты для разработки, позволяя создавать приложения для веба, мобильных устройств и других платформ.</p>
+
+        <img src="img/vscode.webp" alt="Картинка" width=" 200" class="center-media">
+
+        <h3>Основные функции</h3>
+
+        <ul>
+            <li>Многоязычная поддержка: <p>VS Code поддерживает множество языков, включая JavaScript, TypeScript, Python, PHP, C++, Java и многие другие. Разработчики могут легко переключаться между языками и использовать необходимые инструменты.</p> </li>
+            <li>Расширяемость: <p>Благодаря большому количеству доступных плагинов, VS Code может быть настроен под нужды конкретного проекта. Плагины позволяют добавлять функциональность, такую как поддержка языков, инструменты для тестирования, системы контроля версий и многое другое.</p> </li>
+            <li>Интеграция с Git: <p>Встроенные инструменты для работы с Git позволяют разработчикам легко управлять версиями своего кода, просматривать изменения и сливать ветки, не выходя из редактора.</p> </li>
+            <li>Удобный интерфейс: VS Code предлагает интуитивно понятный интерфейс с функцией автозавершения кода, подсветкой синтаксиса и возможностью редактирования нескольких файлов одновременно. Эти функции делают процесс разработки более эффективным и менее утомительным.</li>
+        </ul>
+
+        <img src="img/vscode.png" alt="Картинка" width="800" class="center-media">
+
+        <h3>Полезные плагины</h3>
+        <ol>
+            <li>Prettier: <p>Автоматически форматирует код, следуя заданным правилам, что помогает поддерживать единый стиль кода в проекте.</p> </li>
+            <li>Live Server: <p>Запускает локальный сервер с автообновлением, что позволяет разработчикам сразу видеть изменения в браузере.</p> </li>
+            <li>ESLint: <p>Проверяет код на наличие ошибок и предупреждений, следуя стандартам качества кода JavaScript.</p> </li>
+            <li>GitLens: <p>Улучшает встроенные возможности Git в VS Code, добавляя информацию о коммитах, авторах и изменениях прямо в редакторе.</p> </li>
+        </ol>
+
+        <p>Visual Studio Code является мощным и универсальным инструментом для разработчиков всех уровней. Благодаря своей расширяемости, многоязычной поддержке и множеству встроенных функций, VS Code стал неотъемлемой частью рабочего процесса многих разработчиков. Независимо от того, создаете ли вы небольшое приложение или крупный проект, VS Code предлагает все необходимые инструменты для успешной разработки.</p>
+    </div>
+</div>
+
+<!-- Подвал -->
+<footer class="footer">
+    <div class="container">
+        <p style="text-align: center;"> &copy; 2024 Все права защищены. | Дизайн и разработка: <a href="https://vk.com/v_i_n_a" target="_blank">Егор Виноградов</a> </p>
+    </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const sidebar = document.getElementById('sidebar');
+        const toggleButton = document.getElementById('toggleSidebar');
+        const body = document.body;
+        const mainContent = document.querySelector('.main-content');
+        const screenWidth = window.innerWidth;
+
+        // При загрузке страницы проверяем ширину экрана
+        if (screenWidth < 760) {
+            sidebar.classList.add('sidebar-hidden');
+            body.classList.add('sidebar-closed');
+            toggleButton.innerHTML = '&#9654;'; // Стрелка вправо для открытия
+        } else {
+            sidebar.classList.remove('sidebar-hidden');
+            sidebar.classList.add('sidebar-visible');
+            body.classList.add('sidebar-open');
+            mainContent.classList.add('sidebar-open');
+            toggleButton.innerHTML = '&#9664;'; // Стрелка влево для закрытия
+        }
+
+        toggleButton.addEventListener('click', function () {
+            const screenWidth = window.innerWidth;
+
+            if (sidebar.classList.contains('sidebar-hidden')) {
+                sidebar.classList.remove('sidebar-hidden');
+                sidebar.classList.add('sidebar-visible');
+                body.classList.add('sidebar-open');
+                body.classList.remove('sidebar-closed');
+                mainContent.classList.add('sidebar-open'); // Добавляем класс для открытого состояния
+                mainContent.classList.remove('sidebar-closed'); // Убираем класс для закрытого состояния
+                toggleButton.innerHTML = '&#9664;'; // Стрелка влево для закрытия
+            } else {
+                sidebar.classList.remove('sidebar-visible');
+                sidebar.classList.add('sidebar-hidden');
+                body.classList.remove('sidebar-open');
+                body.classList.add('sidebar-closed');
+                mainContent.classList.remove('sidebar-open'); // Убираем класс для открытого состояния
+                mainContent.classList.add('sidebar-closed'); // Добавляем класс для закрытого состояния
+                toggleButton.innerHTML = '&#9654;'; // Стрелка вправо для открытия
+            }
+        });
+
+        // Обработчик изменения размера окна для адаптации при ресайзе
+        window.addEventListener('resize', function () {
+            const screenWidth = window.innerWidth;
+
+            if (screenWidth < 760) {
+                sidebar.classList.add('sidebar-hidden');
+                sidebar.classList.remove('sidebar-visible');
+                body.classList.add('sidebar-closed');
+                body.classList.remove('sidebar-open');
+                mainContent.classList.remove('sidebar-open'); // Убираем класс для открытого состояния
+                mainContent.classList.add('sidebar-closed'); // Добавляем класс для закрытого состояния
+                toggleButton.innerHTML = '&#9654;'; // Стрелка вправо для открытия
+            } else {
+                sidebar.classList.remove('sidebar-hidden');
+                sidebar.classList.add('sidebar-visible');
+                body.classList.remove('sidebar-closed');
+                body.classList.add('sidebar-open');
+                mainContent.classList.add('sidebar-open'); // Добавляем класс для открытого состояния
+                mainContent.classList.remove('sidebar-closed'); // Убираем класс для закрытого состояния
+                toggleButton.innerHTML = '&#9664;'; // Стрелка влево для закрытия
+            }
+        });
+    });
+</script>
+</body>
+</html>
