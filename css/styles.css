@@ -1,5 +1,6 @@
 body {
-    padding-top: 56px; /* Adjust based on your top navigation height */
+    padding-top: 56px; /* Adjust based on your top and bottom navigation height */
+    padding-bottom: 56px;
 }
 
 .sidebar {
